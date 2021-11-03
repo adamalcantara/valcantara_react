@@ -9,6 +9,8 @@
     justify-content: space-between;
 }
 
+
+
 .touristCard {
     width: 30%;
     display: flex;
@@ -16,11 +18,18 @@
     align-items: center;
 }
 
+.touristTitle {
+    font-size: 20px;
+}
+
 .attractionimg {
     width: 450px;
 }
 
 @media screen and (max-width: 1750px) {
+    .touristTitle {
+        font-size: 15px;
+    }
     .attractionimg {
         width: 350px;
     }
