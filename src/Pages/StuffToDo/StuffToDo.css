@@ -26,13 +26,13 @@
     }
 }
 
-@media screen and (max-width: 1400px) {
+/* @media screen and (max-width: 1400px) {
     .attractionimg {
         width: 250px;
     }
-}
+} */
 
-@media screen and (max-width: 980px) {
+@media screen and (max-width: 1400px) {
     .touristCard {
         width: 100%;
     }
