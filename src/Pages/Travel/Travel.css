@@ -1,3 +1,29 @@
+#travelHeader {
+    text-align: center;
+    font-size: 60px;
+}
+
+#airTravel {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+#dtwimg {
+    width: 600px;
+    margin-right: 70px;
+}
+
+#airport {
+    font-size: 30px;
+    width: 600px;
+}
+
+p {
+    font-size: 20px;
+}
+
 #accommodations {
     display: flex;
     flex-direction: column;

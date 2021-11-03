@@ -1,13 +1,22 @@
 import React from 'react'
-import MotorCity from "../../Assets/img/travel/motorcity.jpg"
-import HolidayInn from "../../Assets/img/travel/holidayinn.jpg"
-import RenCen from "../../Assets/img/travel/rencen.jpg"
 
 import "./Travel.css"
 
+import MotorCity from "../../Assets/img/travel/motorcity.jpg"
+import HolidayInn from "../../Assets/img/travel/holidayinn.jpg"
+import RenCen from "../../Assets/img/travel/rencen.jpg"
+import DTW from "../../Assets/img/travel/dtw.jpg"
 const Travel = () => {
     return (
         <div>
+            <h2 id="travelHeader">Travel</h2>
+            <div id="airTravel">
+                <img src={DTW} id="dtwimg"></img>
+                <p id="airport">The airport closest to Grosse Pointe is DTW, which is located roughly 30 minutes from Grosse Pointe.
+                    <br></br>
+
+                </p>
+            </div>
             <div id="accommodations">
                 <p>For accommodations in Grosse Pointe, we suggest Airbnb. If you prefer hotels, here are some recommendations for hotels around
                     Grosse Pointe.</p>
