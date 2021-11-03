@@ -1,16 +1,25 @@
 #names {
   text-align: center;
   font-size: 75px;
-  margin-top: 60px;
 }
 
 #date {
   text-align: center;
   font-size: 45px;
-  margin: 0 0;
+  
 }
 
 .pageContent {
   width: 75%;
   margin: 0 auto;
+}
+
+@media screen and (max-width: 980px) {
+  #names {
+    display: none;
+  }
+
+  #date {
+    display: none;
+  }
 }

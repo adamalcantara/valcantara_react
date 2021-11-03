@@ -46,3 +46,36 @@ p {
 .hotelimg {
     width: 450px;
 }
+
+@media screen and (max-width: 1450px) {
+
+    #dtwimg {
+        width: 400px;
+    }
+    .hotelimg {
+        width: 350px;
+    }
+}
+
+@media screen and (max-width: 980px) {
+    #airTravel {
+        flex-direction: column;
+    }
+    #dtwimg {
+        margin-right: 0;
+        width: 100%;
+    }
+    #airport {
+        width: 100%;
+        text-align: center;
+    }
+    #hotels {
+        flex-direction: column;
+    }
+    .hotelcard {
+        width: 100%;
+    }
+    .hotelimg {
+        width: 100%;
+    }
+}

@@ -3,7 +3,9 @@ import './App.css';
 import Navbar from './Components/Navbar/Navbar';
 import { BrowserRouter as Router, Route } from "react-router-dom"
 
+// import Pages
 import Travel from "./Pages/Travel/Travel"
+import StuffToDo from "./Pages/StuffToDo/StuffToDo"
 
 function App() {
   return (
@@ -14,6 +16,7 @@ function App() {
        <Navbar />
        <div className="pageContent">
          <Route exact path="/travel" component={Travel} />
+         <Route exact path="/attractions" component={StuffToDo} />
        </div>
        </Router>
     </div>
