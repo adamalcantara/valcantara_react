@@ -16,7 +16,7 @@ function App() {
        <Navbar />
        <div className="pageContent">
          <Route exact path="/travel" component={Travel} />
-         <Route exact path="/attractions" component={StuffToDo} />
+         <Route exact path="/thingstodo" component={StuffToDo} />
        </div>
        </Router>
     </div>

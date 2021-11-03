@@ -12,9 +12,9 @@ const Travel = () => {
             <h2 id="travelHeader">Travel</h2>
             <div id="airTravel">
                 <img src={DTW} id="dtwimg" alt="DTW airport"></img>
-                <p id="airport">The airport closest to Grosse Pointe is DTW, which is located roughly 30 minutes from Grosse Pointe.
+                <p id="airport">The airport closest to Grosse Pointe is DTW, which is located approximately 30 minutes from Grosse Pointe.
                     <br></br>
-
+                    DTW is a Delta hub, and direct flights to and from most locations can be found on their airline.
                 </p>
             </div>
             <div id="accommodations">

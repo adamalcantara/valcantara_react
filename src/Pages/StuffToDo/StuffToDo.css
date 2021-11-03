@@ -1,0 +1,45 @@
+#attractionHeader {
+    text-align: center;
+    font-size: 60px;
+}
+
+
+#touristSection {
+    display: flex;
+    justify-content: space-between;
+}
+
+.touristCard {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.attractionimg {
+    width: 450px;
+}
+
+@media screen and (max-width: 1750px) {
+    .attractionimg {
+        width: 350px;
+    }
+}
+
+@media screen and (max-width: 1400px) {
+    .attractionimg {
+        width: 250px;
+    }
+}
+
+@media screen and (max-width: 980px) {
+    .touristCard {
+        width: 100%;
+    }
+    #touristSection {
+        flex-direction: column;
+    }
+    .attractionimg {
+        width: 100%;
+    }
+}
