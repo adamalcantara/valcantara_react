@@ -9,7 +9,7 @@
 }
 
 #weddingLogo {
-  margin-top: 20px;
+  margin-top: 30px;
   width: 700px;
 }
 
@@ -27,8 +27,8 @@
   margin-bottom: 200px;
 }
 
-@media screen and (max-width: 980px) {
-  #names {
+@media screen and (max-width: 1000px) {
+  #weddingLogo {
     display: none;
   }
 
