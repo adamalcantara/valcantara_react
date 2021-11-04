@@ -31,3 +31,28 @@
     border-radius: 1000px;
     width: 300px;
 }
+
+@media screen and (max-width: 1500px) {
+    #partyPage {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    #partyPage {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    #weddingPartySection {
+        grid-template-columns: repeat(1, 100%);
+    }
+}
+
+@media screen and (max-width: 720px) {
+    .partyImage {
+        border-radius: 1000px;
+        width: 200px;
+    }
+}
