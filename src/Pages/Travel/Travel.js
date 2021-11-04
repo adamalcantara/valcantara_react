@@ -24,31 +24,19 @@ const Travel = () => {
                     <div className="hotelcard" id="motorcitycard">
                         <img src={MotorCity} alt="MotorCity Casino Hotel" className="hotelimg"></img>
 
-                        <a href="https://www.motorcitycasino.com/default.aspx"><h3>MotorCity Casino Hotel</h3></a>
-                        <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-                        et dolore magna aliqua.Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                        aliquip ex ea commodo consequat.Duis aute irure dolor in reprehenderit in voluptate velit esse
-                        cillum dolore eu fugiat nulla pariatur.Excepteur sint occaecat cupidatat non proident, sunt in
-                        culpa qui officia deserunt mollit anim id est laborum."</p>
+                        <a href="https://www.motorcitycasino.com/default.aspx"><h3 className="hotelHeader">MotorCity Casino Hotel</h3></a>
+                        <p>"With world-class luxury hotel accommodations, spa facilities, fine dining, live performance venues, high-energy gaming and the city’s most exclusive ultra-lounge, you’ll find your kind of entertainment at the new MotorCity Casino Hotel."</p>
                     </div>
                     <div className="hotelcard" id="motorcitycard">
                         <img src={HolidayInn} alt="Detroit Hilton" className="hotelimg"></img>
-                        <a href="https://www.ihg.com/holidayinnexpress/hotels/us/en/troy/dttom/hoteldetail"><h3>Holiday Inn Express &amp; Suites Detroit North</h3></a>
+                        <a href="https://www.ihg.com/holidayinnexpress/hotels/us/en/roseville/dttrv/hoteldetail"><h3 className="hotelHeader">Holiday Inn Express &amp; Suites Detroit North</h3></a>
 
-                        <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-                        et dolore magna aliqua.Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                        aliquip ex ea commodo consequat.Duis aute irure dolor in reprehenderit in voluptate velit esse
-                        cillum dolore eu fugiat nulla pariatur.Excepteur sint occaecat cupidatat non proident, sunt in
-                        culpa qui officia deserunt mollit anim id est laborum."</p>
+                        <p>"New hotel in Roseville just minutes away from everything Metro Detroit has to offer!"</p>
                     </div>
                     <div className="hotelcard" id="motorcitycard">
                         <img src={RenCen} alt="Detroit Renaissance Center" className="hotelimg"></img>
-                        <a href="https://www.marriott.com/hotels/travel/dtwdt-detroit-marriott-at-the-renaissance-center/"><h3>Detroit Marriott at the Renaissance Center</h3></a>
-                        <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-                        et dolore magna aliqua.Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                        aliquip ex ea commodo consequat.Duis aute irure dolor in reprehenderit in voluptate velit esse
-                        cillum dolore eu fugiat nulla pariatur.Excepteur sint occaecat cupidatat non proident, sunt in
-                        culpa qui officia deserunt mollit anim id est laborum."</p>
+                        <a href="https://www.marriott.com/hotels/travel/dtwdt-detroit-marriott-at-the-renaissance-center/"><h3 className="hotelHeader">Detroit Marriott at the Renaissance Center</h3></a>
+                        <p>"Soaring 73 floors above the Detroit River in downtown Detroit, Michigan, Detroit Marriott at the Renaissance Center is ideally situated on the RiverWalk and next to Hart Plaza."</p>
                     </div>
                 </div>
             </div>

@@ -1,12 +1,17 @@
+* {
+  font-family: 'Heebo', sans-serif;
+}
+
 #names {
   text-align: center;
   font-size: 75px;
+  font-family: 'Monsieur La Doulaise', cursive;
 }
 
 #date {
   text-align: center;
   font-size: 45px;
-  
+  font-family: 'Playfair Display', serif;
 }
 
 .pageContent {

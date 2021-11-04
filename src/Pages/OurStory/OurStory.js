@@ -12,7 +12,7 @@ const OurStory = () => {
             <h1 id="storyHeader">Our Story</h1>
 
             <div id="storySection">
-                
+                <div id="timeline"></div>
             </div>
         </div>
     )

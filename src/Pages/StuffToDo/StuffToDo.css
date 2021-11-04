@@ -1,6 +1,7 @@
 #attractionHeader {
     text-align: center;
     font-size: 60px;
+    font-family: 'Playfair Display', serif;
 }
 
 
@@ -20,6 +21,18 @@
 
 .touristTitle {
     font-size: 20px;
+    
+}
+
+.titleH2 {
+    font-family: 'Playfair Display', serif;
+    padding: 15px;
+    color: white;
+    background-color: rgb(92, 92, 92);
+}
+
+.titleH2:hover {
+    background-color: rgb(45, 45, 45);
 }
 
 .attractionimg {

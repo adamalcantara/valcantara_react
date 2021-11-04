@@ -1,6 +1,7 @@
 #travelHeader {
     text-align: center;
     font-size: 60px;
+    font-family: 'Playfair Display', serif;
 }
 
 #airTravel {
@@ -34,6 +35,23 @@ p {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+}
+
+.hotelHeader {
+    font-family: 'Playfair Display', serif;
+    font-size: 25px;
+    padding: 15px;
+    background-color: rgb(92, 92, 92);
+    color: white;
+    text-align:center;
+}
+
+.hotelHeader:hover {
+    background-color: rgb(45, 45, 45);
+}
+
+a {
+    text-decoration: none;
 }
 
 .hotelcard {
