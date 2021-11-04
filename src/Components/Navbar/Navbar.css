@@ -91,8 +91,11 @@
         align-items: center;
     }
 
-    #logo {
-       width: 300px;
+    #mobileLogo {
+       width: 150px;
+       position: absolute;
+       left: 0;
+       margin-left: 10px;
     }
 
     #burger {
@@ -114,7 +117,7 @@
         transition: all 0.5s ease;
         margin-top: 0;
         margin-bottom: 10px;
-        background-color: rgb(28, 28, 28);
+        background-color: white;
         display: flex;
         flex-direction: column;
     }
@@ -128,8 +131,8 @@
     }
 
     .navlinks {
-        font-size: 40px;
-        margin: 40px auto;
+        font-size: 35px;
+        margin: 15px auto;
     }
 
     

@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import { Link } from "react-router-dom"
 
 import "./Navbar.css"
+import MobileLogo from "../../Assets/img/VA.png"
 
 class Navbar extends Component {
     state = { clicked: false }
@@ -14,6 +15,7 @@ class Navbar extends Component {
         return (
             <div id="navigation">
                 <div id="mobilenavigation">
+                    <img src={MobileLogo} id="mobileLogo" alt="VA Logo"></img>
                     <div id="burger" onClick={this.handleClick}>
                         <div id="line1" className={this.state.clicked ? 'line1click' : ''}></div>
                         <div id="line2" className={this.state.clicked ? 'line2click' : ''}></div>
