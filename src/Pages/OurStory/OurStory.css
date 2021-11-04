@@ -1,11 +1,20 @@
 #storyHeader {
     text-align: center;
     font-size: 60px;
+    font-family: 'Playfair Display', serif;
 }
 
 ul, li {
     list-style: none;
     padding: 0;
+}
+
+#timeline {
+    background-color: rgb(244, 244, 244);
+    width: 300px;
+    padding: 30px 60px;
+    border-radius: 50px;
+    border: 1px solid rgb(187, 187, 187);
 }
 
 .date {
