@@ -2,15 +2,20 @@
   font-family: 'Heebo', sans-serif;
 }
 
-#names {
-  text-align: center;
-  font-size: 75px;
-  font-family: 'Monsieur La Doulaise', cursive;
+#topSection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#weddingLogo {
+  margin-top: 20px;
+  width: 700px;
 }
 
 #date {
   text-align: center;
-  font-size: 45px;
+  font-size: 35px;
   font-family: 'Playfair Display', serif;
 }
 

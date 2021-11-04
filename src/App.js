@@ -10,12 +10,17 @@ import StuffToDo from "./Pages/StuffToDo/StuffToDo"
 import WeddingParty from './Pages/WeddingParty/WeddingParty';
 import Footer from './Components/Footer/Footer'
 
+import Logo from "./Assets/img/logo.png"
+
 function App() {
   return (
     <div className="App">
       <Router>
-        <h2 id="names">Valerie &amp; Adam</h2>
+        <div id="topSection">
+        {/* <h2 id="names">Valerie &amp; Adam</h2> */}
+        <img src={Logo} alt="Wedding Logo" id="weddingLogo"></img>
         <h4 id="date">March 12, 2022 · Grosse Pointe, MI</h4>
+        </div>
        <Navbar />
        <div className="pageContent">
          <Route exact path="/story" component={OurStory} />
