@@ -8,6 +8,7 @@ import OurStory from "./Pages/OurStory/OurStory"
 import Travel from "./Pages/Travel/Travel"
 import StuffToDo from "./Pages/StuffToDo/StuffToDo"
 import WeddingParty from './Pages/WeddingParty/WeddingParty';
+import Footer from './Components/Footer/Footer'
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
          <Route exact path="/travel" component={Travel} />
          <Route exact path="/thingstodo" component={StuffToDo} />
        </div>
+       <Footer />
        </Router>
     </div>
   );
