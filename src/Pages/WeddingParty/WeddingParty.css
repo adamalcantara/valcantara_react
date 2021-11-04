@@ -1,0 +1,33 @@
+#partyPage {
+    width: 80%;
+    margin: 0 auto;
+}
+
+#weddingPartyHeader {
+    text-align: center;
+    font-size: 60px;
+}
+
+#weddingPartySection {
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+}
+
+
+
+.partyMember {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    width: 90%;
+}
+
+.partyName {
+    font-size: 30px;
+}
+
+.partyImage {
+    border-radius: 1000px;
+    width: 300px;
+}
