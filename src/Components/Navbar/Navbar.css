@@ -23,6 +23,7 @@
 .navlinks:hover {
     cursor: pointer;
     opacity: 0.5;
+    border-bottom: 1px solid black;
 }
 
 #burger {

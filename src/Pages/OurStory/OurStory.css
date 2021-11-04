@@ -1,7 +1,23 @@
+#storySection{
+    margin: 0 auto;
+    width: 80%;
+}
+
 #storyHeader {
     text-align: center;
     font-size: 60px;
     font-family: 'Playfair Display', serif;
+}
+
+#storyContent {
+    display: flex;
+    
+    margin: 0 auto;
+    justify-content: center;
+    margin-bottom: 50px;
+    padding-bottom: 50px;
+
+    border-bottom: 1px solid black;
 }
 
 ul, li {
@@ -13,8 +29,9 @@ ul, li {
     background-color: rgb(244, 244, 244);
     width: 300px;
     padding: 30px 60px;
-    border-radius: 50px;
+    /* border-radius: 50px; */
     border: 1px solid rgb(187, 187, 187);
+    height: 625px;
 }
 
 .date {
@@ -49,4 +66,21 @@ li:before{
     position: absolute;
     left: -10px;
     top: 0px;
+}
+
+#ringPhoto {
+    height: 687px;
+    margin-left: 50px;
+}
+
+#imageGrid {
+    display: grid;
+    grid-template-columns: repeat(5, 18%);
+    grid-gap: 2%;
+    justify-content: center;
+}
+
+.gridImage {
+    width: 100%;
+    
 }
