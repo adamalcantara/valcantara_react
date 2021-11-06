@@ -24,7 +24,7 @@ const OurStory = () => {
                             <p>First Met</p>
                         </li>
                         <li>
-                            <div className="date">November 2018</div>
+                            <div className="date">January 2019</div>
                             <p>First Worked Together</p>
                         </li>
                         <li>
