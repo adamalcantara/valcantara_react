@@ -5,7 +5,7 @@ const Home = () => {
     return (
         <div id="homePage">
             <div id="video">
-            <iframe id="engagementVideo" src="https://www.youtube.com/embed/Ewez_nEhT2w?controls=0&autoplay=1" title="YouTube video player" frameborder="0" 
+            <iframe id="engagementVideo" src="https://www.youtube.com/embed/Ewez_nEhT2w?controls=0&autoplay=1&loop=1&playlist=Ewez_nEhT2w" title="YouTube video player" frameborder="0" 
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
             allowfullscreen></iframe>
             </div>
