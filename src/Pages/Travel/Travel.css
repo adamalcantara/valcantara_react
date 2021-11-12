@@ -65,6 +65,10 @@ a {
     width: 450px;
 }
 
+.hotelList {
+    font-size: 20px;
+}
+
 @media screen and (max-width: 1450px) {
 
     #dtwimg {

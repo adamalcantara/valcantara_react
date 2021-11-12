@@ -4,6 +4,7 @@ import Navbar from './Components/Navbar/Navbar';
 import { BrowserRouter as Router, Route } from "react-router-dom"
 
 // import Pages
+import Home from "./Pages/Home/Home"
 import OurStory from "./Pages/OurStory/OurStory"
 import Travel from "./Pages/Travel/Travel"
 import StuffToDo from "./Pages/StuffToDo/StuffToDo"
@@ -23,6 +24,7 @@ function App() {
         </div>
        <Navbar />
        <div className="pageContent">
+         <Route exact path="/" component={Home} />
          <Route exact path="/story" component={OurStory} />
          <Route exact path="/party" component={WeddingParty} />
          <Route exact path="/travel" component={Travel} />
