@@ -3,7 +3,11 @@ import "./Home.css"
 
 const Home = () => {
     return (
-        <div>
+        <div id="homePage">
+            <div id="video">
+            <iframe id="engagementVideo" src="https://www.youtube.com/embed/Ewez_nEhT2w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+
             <div id="weddingInfo">
                 <div id="inviteHeader">
                     <p id="weddingDate">March 12, 2022</p>
