@@ -17,23 +17,46 @@
     height: 100%;
 }
 
-#weddingInfo {
-    text-align: center;
-    width: 40%;
+#theWeddingInfo {
     display: flex;
-    flex-direction: column;
-    margin: 0 auto;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    margin-top: 50px;
 }
 
-#weddingDate {
-    font-family: 'Playfair Display', serif;
-    font-size: 30px;
+#weddingInfoRight, #weddingInfoLeft {
+    width: 50%;
+    text-align: center;
 }
 
-.weddingInvite {
+#weddingInfoLeft {
+    border-right: 2px solid black;
+}
+
+#theWeddingDate {
+    font-size: 40px;
+}
+
+#theWeddingTime {
     font-size: 25px;
 }
 
-#time, #inviteHeader {
-    border-bottom: 1px solid black;
+@media screen and (max-width: 1000px) {
+    #homePage {
+        width: 100%;
+    }
+    
+    #theWeddingInfo {
+        flex-direction: column;
+    }
+
+    #weddingInfoRight, #weddingInfoLeft {
+        width: 100%;
+    }
+
+    #weddingInfoLeft {
+        border-right: none;
+        border-bottom: 2px solid black;
+    }
 }
