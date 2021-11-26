@@ -34,6 +34,15 @@
     width: 300px;
 }
 
+.weddingParty {
+    margin-top: 25px;
+}
+
+.partyList{
+    font-size: 20px;
+}
+
+
 @media screen and (max-width: 1500px) {
     #partyPage {
         width: 90%;
