@@ -19,23 +19,23 @@ const OurStory = () => {
             <div id="storyContent">
                 <div id="timeline">
                     <ul className="sessions">
-                        <li>
+                        <li className="timelineList">
                             <div className="date">August 2018</div>
                             <p>First Met</p>
                         </li>
-                        <li>
+                        <li className="timelineList">
                             <div className="date">January 2019</div>
                             <p>First Worked Together</p>
                         </li>
-                        <li>
+                        <li className="timelineList">
                             <div className="date">February 2020</div>
                             <p>Started Hanging Out Outside Work</p>
                         </li>
-                        <li>
+                        <li className="timelineList">
                             <div className="date">March 2020</div>
                             <p>First Date</p>
                         </li>
-                        <li>
+                        <li className="timelineList">
                             <div className="date">August 2021</div>
                             <p>Got Engaged</p>
                         </li>
