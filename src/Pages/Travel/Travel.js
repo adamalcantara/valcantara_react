@@ -24,7 +24,7 @@ const Travel = () => {
                     <div className="hotelcard" id="motorcitycard">
                         <img src={MotorCity} alt="MotorCity Casino Hotel" className="hotelimg"></img>
 
-                        <a href="https://www.motorcitycasino.com/default.aspx"><h3 className="hotelHeader">MotorCity Casino Hotel</h3></a>
+                        <a href="https://www.motorcitycasino.com/default.aspx" target="_blank" rel="noreferrer"><h3 className="hotelHeader">MotorCity Casino Hotel</h3></a>
                         {/* <p>"With world-class luxury hotel accommodations, spa facilities, fine dining, live performance venues, high-energy gaming and the city’s most exclusive ultra-lounge, you’ll find your kind of entertainment at the new MotorCity Casino Hotel."</p> */}
                         <ul className="hotelList">
                             <li>30 minutes from Grosse Pointe</li>
@@ -33,7 +33,7 @@ const Travel = () => {
                     </div>
                     <div className="hotelcard" id="motorcitycard">
                         <img src={HolidayInn} alt="Detroit Hilton" className="hotelimg"></img>
-                        <a href="https://www.ihg.com/holidayinnexpress/hotels/us/en/roseville/dttrv/hoteldetail"><h3 className="hotelHeader">Holiday Inn Express &amp; Suites Detroit North</h3></a>
+                        <a href="https://www.ihg.com/holidayinnexpress/hotels/us/en/roseville/dttrv/hoteldetail" target="_blank" rel="noreferrer"><h3 className="hotelHeader">Holiday Inn Express &amp; Suites Detroit North</h3></a>
 
                         {/* <p>"New hotel in Roseville just minutes away from everything Metro Detroit has to offer!"</p> */}
                         <ul className="hotelList">
@@ -43,7 +43,7 @@ const Travel = () => {
                     </div>
                     <div className="hotelcard" id="motorcitycard">
                         <img src={RenCen} alt="Detroit Renaissance Center" className="hotelimg"></img>
-                        <a href="https://www.marriott.com/hotels/travel/dtwdt-detroit-marriott-at-the-renaissance-center/"><h3 className="hotelHeader">Detroit Marriott at the Renaissance Center</h3></a>
+                        <a href="https://www.marriott.com/hotels/travel/dtwdt-detroit-marriott-at-the-renaissance-center/" target="_blank" rel="noreferrer"><h3 className="hotelHeader">Detroit Marriott at the Renaissance Center</h3></a>
                         {/* <p>"Soaring 73 floors above the Detroit River in downtown Detroit, Michigan, Detroit Marriott at the Renaissance Center is ideally situated on the RiverWalk and next to Hart Plaza."</p> */}
                         <ul className="hotelList">
                             <li>30 minutes from Grosse Pointe</li>
