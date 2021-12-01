@@ -7,7 +7,9 @@
   z-index: -1000;
   left: 0;
   top: 0;
-  transform: rotate(-40deg) translate(-500px, -550px);
+  transform: rotate(-40deg) translate(-200px, -325px);
+  width: 1200px;
+  height: auto;
 }
 
 #topSection {
