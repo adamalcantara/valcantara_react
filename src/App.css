@@ -1,5 +1,5 @@
 * {
-  font-family: 'Heebo', sans-serif;
+  font-family: 'Lora', serif;
 }
 
 #topSection {
@@ -15,8 +15,9 @@
 
 #date {
   text-align: center;
-  font-size: 35px;
-  font-family: 'Playfair Display', serif;
+  font-size: 40px;
+  /* font-family: 'Playfair Display', serif; */
+  font-weight: bold;
   margin-top: 5px;
   margin-bottom: 5px;
 }
