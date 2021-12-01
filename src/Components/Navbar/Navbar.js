@@ -29,6 +29,7 @@ class Navbar extends Component {
                     <Link to="/travel" className="navlinks" onClick={this.handleClick}>Travel</Link>
                     <Link to="/thingstodo" className="navlinks" onClick={this.handleClick}>Things to Do</Link>
                     <Link to="/registry" className="navlinks" onClick={this.handleClick}>Registry</Link>
+                    <Link to="/rsvp" className="navlinks" onClick={this.handleClick}>RSVP</Link>
                 </div>
             </div>
         )

@@ -10,6 +10,8 @@ import Travel from "./Pages/Travel/Travel"
 import StuffToDo from "./Pages/StuffToDo/StuffToDo"
 import WeddingParty from './Pages/WeddingParty/WeddingParty';
 import Footer from './Components/Footer/Footer'
+import Registry from './Pages/Registry/Registry'
+import RSVP from './Pages/RSVP/RSVP'
 
 import Logo from "./Assets/img/logo.png"
 
@@ -29,6 +31,8 @@ function App() {
          <Route exact path="/party" component={WeddingParty} />
          <Route exact path="/travel" component={Travel} />
          <Route exact path="/thingstodo" component={StuffToDo} />
+         <Route exact path="/registry" component={Registry} />
+         <Route exact path="/rsvp" component={RSVP} />
        </div>
        <Footer />
        </Router>
