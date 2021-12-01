@@ -13,12 +13,14 @@ import Footer from './Components/Footer/Footer'
 import Registry from './Pages/Registry/Registry'
 import RSVP from './Pages/RSVP/RSVP'
 
-import Logo from "./Assets/img/logo.png"
+import Logo from "./Assets/img/logo2.png"
+import Flowers from "./Assets/img/flowers.png"
 
 function App() {
   return (
     <div className="App">
       <Router>
+        <img src={Flowers} alt="Flower decoration" id="flowerImage"></img>
         <div id="topSection">
         {/* <h2 id="names">Valerie &amp; Adam</h2> */}
         <img src={Logo} alt="Wedding Logo" id="weddingLogo"></img>
