@@ -37,6 +37,10 @@ p {
     justify-content: space-between;
 }
 
+.hotelcard a {
+    width: 100%;
+}
+
 .hotelHeader {
     font-family: 'Playfair Display', serif;
     font-size: 25px;
@@ -44,6 +48,10 @@ p {
     background-color: rgb(92, 92, 92);
     color: white;
     text-align:center;
+    height: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .hotelHeader:hover {
