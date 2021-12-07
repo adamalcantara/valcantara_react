@@ -21,8 +21,11 @@
     width: 90%;
     margin: 0 auto;
 }
+
 #homeImg {
     width: 100%;
+    box-shadow: 0 0 40px rgb(227, 227, 227);
+
 }
 
 #theWeddingInfo {
