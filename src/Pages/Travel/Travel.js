@@ -14,12 +14,16 @@ const Travel = () => {
                 <img src={DTW} id="dtwimg" alt="DTW airport"></img>
                 <p id="airport">The airport closest to Grosse Pointe is Detroit Metropolitan Airport (DTW) which is located approximately 30 minutes from Grosse Pointe.
                     <br></br>
+                    <br></br>
                     DTW is a Delta hub, and direct flights to and from most locations can be found on their airline.
                 </p>
             </div>
             <div id="accommodations">
-                <p>For accommodations in Grosse Pointe, we suggest Airbnb. If you prefer hotels, here are some recommendations for hotels around
-                    Grosse Pointe.</p>
+                <p id="forAccommodations">For accommodations in Grosse Pointe, we suggest <a href="https://www.airbnb.com/" target="_blank" rel="noreferrer" id="airbnb">Airbnb</a>. 
+                <br></br>
+                <br></br>
+                If you prefer hotels, here are some recommendations for hotels around
+                    Grosse Pointe:</p>
                 <div id="hotels">
                     <div className="hotelcard" id="motorcitycard">
                         <img src={MotorCity} alt="MotorCity Casino Hotel" className="hotelimg"></img>

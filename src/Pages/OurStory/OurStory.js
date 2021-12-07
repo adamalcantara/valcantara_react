@@ -10,6 +10,8 @@ import Proposal from "../../Assets/img/story/proposal.jpg"
 import Disneyland from "../../Assets/img/story/disneyland.jpg"
 import YachtClub from "../../Assets/img/story/yachtclub.jpg"
 
+import { IoLocationOutline } from 'react-icons/io5';
+
 
 const OurStory = () => {
     return (
@@ -22,22 +24,27 @@ const OurStory = () => {
                         <li className="timelineList">
                             <div className="date">August 2018</div>
                             <p>First Met</p>
+                            <p><IoLocationOutline /> Main St. U.S.A., Magic Kingdom</p>
                         </li>
                         <li className="timelineList">
                             <div className="date">January 2019</div>
                             <p>First Worked Together</p>
+                            <p><IoLocationOutline /> Liberty Square, Magic Kingdom</p>
                         </li>
                         <li className="timelineList">
-                            <div className="date">February 2020</div>
-                            <p>Started Hanging Out Outside Work</p>
+                            <div className="date">January 2020</div>
+                            <p>First "Unofficial" Date</p>
+                            <p><IoLocationOutline /> Epcot</p>
                         </li>
                         <li className="timelineList">
                             <div className="date">March 2020</div>
-                            <p>First Date</p>
+                            <p>First "Real" Date</p>
+                            <p><IoLocationOutline /> Ale &amp; Compass</p>
                         </li>
                         <li className="timelineList">
                             <div className="date">August 2021</div>
                             <p>Got Engaged</p>
+                            <p><IoLocationOutline /> Griffith Park, California</p>
                         </li>
                     </ul>
                 </div>

@@ -15,7 +15,7 @@ class Navbar extends Component {
         return (
             <div id="navigation">
                 <div id="mobilenavigation">
-                    <img src={MobileLogo} id="mobileLogo" alt="VA Logo"></img>
+                    {/* <img src={MobileLogo} id="mobileLogo" alt="VA Logo"></img> */}
                     <div id="burger" onClick={this.handleClick}>
                         <div id="line1" className={this.state.clicked ? 'line1click' : ''}></div>
                         <div id="line2" className={this.state.clicked ? 'line2click' : ''}></div>
