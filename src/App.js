@@ -15,6 +15,7 @@ import RSVP from './Pages/RSVP/RSVP'
 
 import Logo from "./Assets/img/logo2.png"
 import Flowers from "./Assets/img/flowers.png"
+import FlowersFooter from "./Assets/img/flowersFooter.png"
 
 function App() {
   return (
@@ -36,7 +37,9 @@ function App() {
          <Route exact path="/registry" component={Registry} />
          <Route exact path="/rsvp" component={RSVP} />
        </div>
+       {/* <img src={FlowersFooter} alt="Flower decoration" id="flowerImageFooter"></img> */}
        <Footer />
+       
        </Router>
     </div>
   );

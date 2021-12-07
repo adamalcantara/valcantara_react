@@ -7,10 +7,17 @@
   z-index: -1000;
   left: 0;
   top: 0;
-  transform: rotate(-40deg) translate(-200px, -325px);
-  width: 1200px;
+  /* transform: rotate(-10deg) translate(-300px, -100px); */
+  width: 40%;
   height: auto;
 }
+
+/* #flowerImageFooter {
+  position: absolute;
+  z-index: -1000;
+  width: 1200px;
+  height: auto;
+} */
 
 #topSection {
   display: flex;
@@ -38,6 +45,15 @@
   width: 75%;
   margin: 0 auto;
   margin-bottom: 200px;
+}
+
+@media screen and (max-width: 1200px) {
+  #weddingLogo {
+    width: 600px;
+  }
+  #date {
+    font-size: 30px;
+  }
 }
 
 @media screen and (max-width: 1000px) {

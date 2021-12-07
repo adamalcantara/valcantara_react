@@ -6,3 +6,13 @@
 #devLink {
     color: black;
 }
+
+/* #flowerImageFooter {
+    position: absolute;
+    transform: translate(300px, 850px);
+    bottom: 0;
+    right: 0;
+    z-index: -1000;
+    width: 1200px;
+    height: auto;
+  } */

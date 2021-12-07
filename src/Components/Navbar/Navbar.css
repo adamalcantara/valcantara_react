@@ -79,6 +79,14 @@
     }
 }
 
+@media screen and (max-width: 1200px) {
+    .navlinks {
+        font-size: 25px;
+        margin: auto 10px;
+
+    }
+}
+
 @media screen and (max-width: 1000px) {
     #navigation {
         margin-left: 0px;
