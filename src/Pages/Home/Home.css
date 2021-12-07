@@ -3,7 +3,7 @@
     margin: 0 auto;
 }
 
-#video {
+/* #video {
     position: relative;
     padding-bottom: 56.25%;
     height: 0;
@@ -15,6 +15,14 @@
     left: 0;
     width: 100%;
     height: 100%;
+} */
+
+#coverPhoto {
+    width: 90%;
+    margin: 0 auto;
+}
+#homeImg {
+    width: 100%;
 }
 
 #theWeddingInfo {
@@ -42,13 +50,25 @@
     font-size: 25px;
 }
 
+@media screen and (max-width: 1500px) {
+    #coverPhoto {
+        width: 100%;
+    }
+}
+
 @media screen and (max-width: 1000px) {
     #homePage {
         width: 100%;
     }
-    
+
+    #coverPhoto {
+        width: 100%;
+        margin-top: 40px;
+    }
+
     #theWeddingInfo {
         flex-direction: column;
+        margin-top: 30px;
     }
 
     #weddingInfoRight, #weddingInfoLeft {

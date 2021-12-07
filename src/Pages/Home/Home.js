@@ -1,18 +1,23 @@
 import React from 'react'
 import "./Home.css"
 
+import HomeImage from "../../Assets/img/hollywood.jpg"
+
 const Home = () => {
     return (
         <div id="homePage">
-            <div id="video">
+            {/* <div id="video">
                 <iframe id="engagementVideo" src="https://www.youtube.com/embed/Ewez_nEhT2w?controls=0&autoplay=1&loop=1&playlist=Ewez_nEhT2w" title="YouTube video player" frameborder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                     allowfullscreen></iframe>
+            </div> */}
+            <div id="coverPhoto">
+             <img src={HomeImage} id="homeImg"></img>
             </div>
 
             <div id="theWeddingInfo">
                 <div id="weddingInfoLeft">
-                    <p id="theWeddingDate">March 12, 2022</p>
+                    <p id="theWeddingDate">Saturday, the Twelfth of March</p>
                     <p id="theWeddingTime">Half Past Four In The Afternoon</p>
                 </div>
                 <div id="weddingInfoRight">
