@@ -19,11 +19,13 @@
 
 #coverPhoto {
     width: 90%;
+    height: auto;
     margin: 0 auto;
 }
 
 #homeImg {
     width: 100%;
+    height: auto;
     box-shadow: 0 0 40px rgb(227, 227, 227);
 
 }
@@ -56,6 +58,7 @@
 @media screen and (max-width: 1500px) {
     #coverPhoto {
         width: 100%;
+        height: auto;
     }
 }
 
@@ -66,6 +69,7 @@
 
     #coverPhoto {
         width: 100%;
+        height: auto;
         margin-top: 40px;
     }
 

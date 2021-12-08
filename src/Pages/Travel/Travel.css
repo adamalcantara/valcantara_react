@@ -13,6 +13,7 @@
 
 #dtwimg {
     width: 600px;
+    height: auto;
     margin-right: 70px;
 }
 
@@ -86,6 +87,7 @@ a {
 
 .hotelimg {
     width: 450px;
+    height: auto;
 }
 
 .hotelList {

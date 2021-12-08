@@ -37,6 +37,7 @@
 
 .attractionimg {
     width: 450px;
+    height: auto;
 }
 
 @media screen and (max-width: 1750px) {
