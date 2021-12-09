@@ -93,13 +93,14 @@
     #storySection {
         width: 100%;
     }
+    #timeline {
+        width: 600px;
+        height: 100%;
+    }
 }
 
 @media screen and (max-width: 1850px) {
-    #timeline {
-        width: 600px;
-        height: 700px;
-    }
+    
     #ringPhoto {
         width: 60%;
         height: 100%;
@@ -124,7 +125,6 @@
     }
     #timeline {
         width: 80%;
-        height: 720px;
         margin-bottom: 30px;
     }
     #ringPhoto {
