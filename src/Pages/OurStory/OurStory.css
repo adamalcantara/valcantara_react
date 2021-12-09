@@ -98,6 +98,7 @@
 @media screen and (max-width: 1850px) {
     #timeline {
         width: 600px;
+        height: 700px;
     }
     #ringPhoto {
         width: 60%;
