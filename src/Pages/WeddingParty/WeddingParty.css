@@ -6,7 +6,6 @@
 #weddingPartyHeader {
     text-align: center;
     font-size: 60px;
-    font-family: 'Playfair Display', serif;
 }
 
 #weddingPartySection {
@@ -26,7 +25,6 @@
 
 .partyName {
     font-size: 30px;
-    font-family: 'Playfair Display', serif;
 }
 
 .partyImage {
