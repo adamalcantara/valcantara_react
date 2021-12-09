@@ -101,7 +101,7 @@
     }
     #ringPhoto {
         width: 60%;
-        height: auto;
+        height: 100%;
         margin-left: 50px;
     }
 }
@@ -110,7 +110,6 @@
     
     #ringPhoto {
         width: 50%;
-        height: auto;
     }
 }
 
@@ -129,7 +128,6 @@
     }
     #ringPhoto {
         width: 100%;
-        height: auto;
         margin-left: 0px;
     }
     #imageGrid {
