@@ -21,9 +21,8 @@
     color: black;
     /* font-weight: 500; */
     font-size: 35px;
-    margin: auto 30px;
+    margin: auto 15px auto 15px;
     padding-bottom: 10px;
-    
 }
 
 .navlinks:hover {
@@ -65,7 +64,7 @@
     }
 
     .navlinks {
-        margin: auto 20px;
+        font-size: 30px;
     }
 }
 
@@ -75,16 +74,14 @@
     }
 
     .navlinks {
-        font-size: 30px;
-        margin: auto 20px;
+        font-size: 25px;
     }
 }
 
 @media screen and (max-width: 1200px) {
     .navlinks {
-        font-size: 25px;
-        margin: auto 10px;
-
+        margin: auto 10px auto 10px;
+        font-size: 23px;
     }
 }
 
