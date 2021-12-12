@@ -20,13 +20,17 @@
 
 .touristTitle {
     font-size: 20px;
-    
 }
 
 .titleH2 {
     padding: 15px;
     color: white;
     background-color: rgb(92, 92, 92);
+    height: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 
 .titleH2:hover {
