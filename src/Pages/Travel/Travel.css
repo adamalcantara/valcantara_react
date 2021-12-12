@@ -57,7 +57,7 @@ p {
 }
 
 .hotelHeader {
-    font-family: 'Playfair Display', serif;
+    /* font-family: 'Playfair Display', serif; */
     font-size: 25px;
     padding: 15px;
     background-color: rgb(92, 92, 92);
@@ -107,6 +107,9 @@ a {
     .hotelimg {
         width: 250px;
     }
+    .hotelHeader {
+        font-size: 20px;
+    }
 }
 
 @media screen and (max-width: 980px) {
@@ -129,5 +132,8 @@ a {
     }
     .hotelimg {
         width: 100%;
+    }
+    .hotelHeader {
+        font-size: 25px;
     }
 }
