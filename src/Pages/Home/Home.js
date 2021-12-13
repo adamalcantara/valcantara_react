@@ -11,6 +11,10 @@ const Home = () => {
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                     allowfullscreen></iframe>
             </div> */}
+            <div id="mobileHeader">
+                <h1 id="homeHeader">Valerie &amp; Adam</h1>
+                <h2 id="homeSubHeader">March 12th, 2022</h2>
+            </div>
             <div id="coverPhoto">
              <img src={HomeImage} id="homeImg"></img>
             </div>

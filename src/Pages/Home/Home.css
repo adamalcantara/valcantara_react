@@ -3,6 +3,20 @@
     margin: 0 auto;
 }
 
+#mobileHeader {
+    display: none;
+}
+
+#homeHeader {
+    font-size: 30px;
+    text-align: center;
+}
+
+#homeSubHeader {
+    font-size: 25px;
+    text-align: center;
+}
+
 /* #video {
     position: relative;
     padding-bottom: 56.25%;
@@ -65,6 +79,10 @@
 @media screen and (max-width: 1000px) {
     #homePage {
         width: 100%;
+    }
+
+    #mobileHeader {
+        display: block;
     }
 
     #coverPhoto {
