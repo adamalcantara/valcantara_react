@@ -66,4 +66,7 @@
         border-radius: 1000px;
         width: 200px;
     }
+    .partyName {
+        font-size: 25px;
+    }
 }
