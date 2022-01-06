@@ -28,8 +28,8 @@ class Navbar extends Component {
                     <Link to="/party" className="navlinks" onClick={this.handleClick}>Wedding Party</Link>
                     <Link to="/travel" className="navlinks" onClick={this.handleClick}>Travel</Link>
                     <Link to="/thingstodo" className="navlinks" onClick={this.handleClick}>Things to Do</Link>
-                    <Link to="/registry" className="navlinks" onClick={this.handleClick}>Registry</Link>
-                    <Link to="/rsvp" className="navlinks" onClick={this.handleClick}>RSVP</Link>
+                    <a className="navlinks" onClick={this.handleClick} href="https://www.zola.com/wedding/valcantara/registry" target="_blank">Registry</a>
+                    <a className="navlinks" onClick={this.handleClick} href="https://www.zola.com/wedding/valcantara/rsvp" target="_blank">RSVP</a>
                 </div>
             </div>
         )
